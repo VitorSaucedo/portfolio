@@ -363,7 +363,7 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
         }
          // To Do List
         else if (index === 1) {
-            window.open('https://github.com/VitorSaucedo/to-do-list', '_blank');
+            window.open('https://github.com/VitorSaucedo/to_do_list_app', '_blank');
         }
         // Gerenciador de Logistica
         else if (index === 2) {
