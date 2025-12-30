@@ -351,7 +351,7 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
         
         // 0. JavaJobs
         if (index === 0) {
-            window.open('https://github.com/VitorSaucedo/JavaJobs', '_blank');
+            window.open('https://github.com/VitorSaucedo/java_jobs', '_blank');
         }
         // 1. To Do List
         else if (index === 1) {
