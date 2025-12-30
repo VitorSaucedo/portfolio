@@ -313,14 +313,6 @@ document.querySelectorAll('.social-icon').forEach((icon, index) => {
         else if (index === 1) {
             window.open('https://linkedin.com/in/vitor-saucedo-uggeri-641868365', '_blank');
         }
-        // Twitter (você pode adicionar seu Twitter depois)
-        else if (index === 2) {
-            mostrarAlerta('Link do Twitter - Adicione seu perfil!', 'info');
-        }
-        // CodePen (você pode adicionar seu CodePen depois)
-        else if (index === 3) {
-            mostrarAlerta('Link CodePen/Portfólio - Adicione seu perfil!', 'info');
-        }
     });
 });
 
@@ -357,20 +349,24 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
         
-        // App de Finanças
+        // 0. JavaJobs
         if (index === 0) {
-            window.open('https://github.com/VitorSaucedo/finances_app', '_blank');
+            window.open('https://github.com/VitorSaucedo/JavaJobs', '_blank');
         }
-         // To Do List
+        // 1. To Do List
         else if (index === 1) {
             window.open('https://github.com/VitorSaucedo/to_do_list_app', '_blank');
         }
-        // Gerenciador de Logistica
+        // 2. Aplicativo de Finanças
         else if (index === 2) {
+            window.open('https://github.com/VitorSaucedo/finances_app', '_blank');
+        }
+        // 3. Gerenciador de Logística
+        else if (index === 3) {
             window.open('https://github.com/VitorSaucedo/logistics-management-system', '_blank');
         }
-        // Gerenciador de Biblioteca
-        else if (index === 3) {
+        // 4. Gerenciador de Biblioteca
+        else if (index === 4) {
             window.open('https://github.com/VitorSaucedo/library-management-system', '_blank');
         }
     });
