@@ -1,130 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vitor Saucedo | Dev Java</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
 
-<nav id="navbar">
-    <div class="container">
+    <meta
+      name="description"
+      content="Portfólio de Vitor Saucedo, Desenvolvedor Backend Java & Spring Boot focado em sistemas escaláveis."
+    />
+    <meta
+      name="keywords"
+      content="Java, Spring Boot, Backend, Desenvolvedor, Portfólio, PostgreSQL"
+    />
+    <meta name="author" content="Vitor Saucedo" />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://vitorsaucedo.github.io/portfolio/"
+    />
+    <meta property="og:title" content="Vitor Saucedo | Dev Java" />
+    <meta
+      property="og:description"
+      content="Desenvolvedor focado em construir sistemas robustos e escaláveis utilizando o ecossistema Java."
+    />
+    <meta
+      property="og:image"
+      content="https://vitorsaucedo.github.io/portfolio/assets/img/preview-site.png"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Vitor Saucedo | Dev Java" />
+    <meta
+      property="twitter:description"
+      content="Desenvolvedor focado em construir sistemas robustos e escaláveis utilizando o ecossistema Java."
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar" aria-label="Navegação principal">
+      <div class="container">
         <div class="logo">Vitor<span>.java</span></div>
         <ul>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#education">Educação</a></li>
-            <li><a href="#contact">Contato</a></li>
+          <li><a href="#about" aria-label="Ir para a seção Sobre">Sobre</a></li>
+          <li>
+            <a href="#projects" aria-label="Ir para a seção Projetos"
+              >Projetos</a
+            >
+          </li>
+          <li>
+            <a href="#education" aria-label="Ir para a seção Educação"
+              >Educação</a
+            >
+          </li>
+          <li>
+            <a href="#contact" aria-label="Ir para a seção Contato">Contato</a>
+          </li>
+          <li>
+            <a
+              href="assets/curriculo.pdf"
+              target="_blank"
+              aria-label="Abrir currículo em PDF"
+              >Currículo</a
+            >
+          </li>
         </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-<header id="about" class="container">
-    <div class="hero-content">
-        <h1>Desenvolvedor Backend <br><span>Java & Spring Boot</span></h1>
-        <p>Desenvolvedor focado em construir sistemas robustos e escaláveis utilizando o ecossistema Java. Experiência prática com APIs RESTful, PostgreSQL e Docker, sempre priorizando Clean Code e princípios SOLID.</p>
-        <div class="stack-badges">
-            <span class="badge">Java</span>
-            <span class="badge">Spring Boot</span>
-            <span class="badge">PostgreSQL</span>
-            <span class="badge">Git</span>
+    <header id="about" class="container wide-container">
+      <div class="hero-content">
+        <h1>Desenvolvedor Backend <br /><span>Java & Spring Boot</span></h1>
+        <p>
+          Desenvolvedor Backend Java em formação, com foco no ecossistema Spring
+          e na construção de APIs eficientes e bem estruturadas.
+        </p>
+        <div class="hero-actions">
+          <a
+            href="assets/curriculo.pdf"
+            target="_blank"
+            class="btn-cv"
+            aria-label="Baixar ou visualizar currículo completo em PDF"
+          >
+            Ver Currículo PDF
+          </a>
         </div>
-    </div>
-</header>
+        <div class="stack-badges" aria-label="Tecnologias principais">
+          <span class="badge">Java</span>
+          <span class="badge">Spring Boot</span>
+          <span class="badge">PostgreSQL</span>
+          <span class="badge">Git</span>
+        </div>
+      </div>
+    </header>
 
-<section id="projects" class="container wide-container">
-    <h2>Projetos em Destaque</h2>
-    <div class="projects-grid">
+    <section id="projects" class="container wide-container">
+      <h2>Projetos em Destaque</h2>
+      <div class="projects-grid">
         <article class="project-card">
-            <img src="assets/img/javajobs-thumb.png" alt="Preview JavaJobs" class="project-thumb">
-            <div class="card-content">
-                <h3>JavaJobs</h3>
-                <p>Portal especializado em agregar vagas para desenvolvedores Java, com sistema de sincronização via API e interface limpa para gestão de candidaturas.</p>
-                <div class="project-techs">
-                    <span>#Spring Boot</span> <span>#PostgreSQL</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/VitorSaucedo/java_jobs" target="_blank" class="btn-sm">GitHub</a>
-                    <a href="https://java-jobs.onrender.com/" target="_blank" class="btn-sm secondary">Live Demo</a>
-                </div>
+          <img
+            src="assets/img/javajobs-thumb.png"
+            alt="Interface do projeto JavaJobs"
+            class="project-thumb"
+          />
+          <div class="card-content">
+            <h3>JavaJobs</h3>
+            <p>
+              Portal especializado em agregar vagas para desenvolvedores Java,
+              com sistema de sincronização via API.
+            </p>
+            <div class="project-techs">
+              <span>#Spring Boot</span> <span>#PostgreSQL</span>
             </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/VitorSaucedo/java_jobs"
+                target="_blank"
+                class="btn-sm"
+                aria-label="Ver código do projeto JavaJobs no GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://java-jobs.onrender.com/"
+                target="_blank"
+                class="btn-sm secondary"
+                aria-label="Ver demonstração ao vivo do JavaJobs"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </article>
 
         <article class="project-card">
-            <img src="assets/img/todo-thumb.png" alt="Preview To Do List" class="project-thumb">
-            <div class="card-content">
-                <h3>To Do List</h3>
-                <p>Aplicação web moderna de gerenciamento de tarefas desenvolvida com Spring Boot.</p>
-                <div class="project-techs">
-                    <span>#Spring Boot</span> <span>#Security</span> <span>#Swagger</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/VitorSaucedo/to_do_list_app" target="_blank" class="btn-sm">GitHub</a>
-                    <a href="https://to-do-list-app-iek9.onrender.com/" target="_blank" class="btn-sm secondary">Live Demo</a>
-                </div>
+          <img
+            src="assets/img/todo-thumb.png"
+            alt="Interface do projeto To Do List"
+            class="project-thumb"
+          />
+          <div class="card-content">
+            <h3>To Do List</h3>
+            <p>
+              Aplicação web moderna de gerenciamento de tarefas desenvolvida com
+              Spring Boot.
+            </p>
+            <div class="project-techs">
+              <span>#Spring Boot</span> <span>#Security</span>
+              <span>#Swagger</span>
             </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/VitorSaucedo/to_do_list_app"
+                target="_blank"
+                class="btn-sm"
+                aria-label="Ver código do projeto To Do List no GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://to-do-list-app-iek9.onrender.com/"
+                target="_blank"
+                class="btn-sm secondary"
+                aria-label="Ver demonstração ao vivo do To Do List"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </article>
 
         <article class="project-card">
-            <img src="assets/img/finances-thumb.png" alt="Preview Controle Financeiro" class="project-thumb">
-            <div class="card-content">
-                <h3>Controle Financeiro</h3>
-                <p>Aplicação de controle financeiro pessoal desenvolvida com Spring Boot, permitindo o registro e acompanhamento de receitas e despesas.</p>
-                <div class="project-techs">
-                    <span>#Spring Boot</span> <span>#Security</span> <span>#PostgreSQL</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/VitorSaucedo/finances_app" target="_blank" class="btn-sm">GitHub</a>
-                    <a href="https://finances-app-04wa.onrender.com/" target="_blank" class="btn-sm secondary">Live Demo</a>
-                </div>
+          <img
+            src="assets/img/finances-thumb.png"
+            alt="Interface do projeto Controle Financeiro"
+            class="project-thumb"
+          />
+          <div class="card-content">
+            <h3>Controle Financeiro</h3>
+            <p>
+              Aplicação de controle financeiro pessoal com registro de receitas
+              e despesas.
+            </p>
+            <div class="project-techs">
+              <span>#Spring Boot</span> <span>#Security</span>
+              <span>#PostgreSQL</span>
             </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/VitorSaucedo/finances_app"
+                target="_blank"
+                class="btn-sm"
+                aria-label="Ver código do projeto Controle Financeiro no GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://finances-app-04wa.onrender.com/"
+                target="_blank"
+                class="btn-sm secondary"
+                aria-label="Ver demonstração ao vivo do Controle Financeiro"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </article>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="education" class="container">
-    <h2>Educação & Certificados</h2>
-    <div class="education-grid">
+    <section id="education" class="container wide-container">
+      <h2>Educação & Certificados</h2>
+      <div class="education-grid">
         <div class="edu-card">
-            <div class="edu-date">2024 - 2026</div>
-            <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <div class="edu-date">2024 - 2026</div>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
         </div>
-
         <div class="edu-card">
-            <div class="edu-date">2025</div>
-            <h3>Geração Caldeira</h3>
-            <p>Formação Intensiva em Desenvolvimento Java e Soft Skills.</p>
+          <div class="edu-date">2025</div>
+          <h3>Geração Caldeira</h3>
+          <p>Formação Intensiva em Desenvolvimento Java e Soft Skills.</p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact" class="container">
-    <h2>Vamos conversar?</h2>
-    <p class="contact-subtitle">Estou em busca de novos desafios e oportunidades na área de Java.</p>
+    <section id="contact" class="container wide-container">
+      <h2>Vamos conversar?</h2>
+      <p class="contact-subtitle">
+        Estou em busca de novos desafios e oportunidades na área de Java.
+      </p>
 
-    <div class="contact-wrapper">
-        <a href="mailto:vitorsaucedo18@outlook.com" class="contact-button">
-            <i class="fa-regular fa-envelope"></i>
-            <span>E-mail</span>
+      <div class="contact-wrapper">
+        <a
+          href="mailto:vitorsaucedo18@outlook.com"
+          class="contact-button"
+          aria-label="Enviar um e-mail para Vitor Saucedo"
+        >
+          <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          <span>E-mail</span>
         </a>
-        <a href="https://www.linkedin.com/in/vitor-saucedo-uggeri-641868365/" target="_blank" class="contact-button">
-            <i class="fa-brands fa-linkedin-in"></i>
-            <span>LinkedIn</span>
+        <a
+          href="https://www.linkedin.com/in/vitor-saucedo-uggeri-641868365/"
+          target="_blank"
+          class="contact-button"
+          aria-label="Acessar perfil do LinkedIn de Vitor Saucedo"
+        >
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          <span>LinkedIn</span>
         </a>
-        <a href="https://github.com/VitorSaucedo" target="_blank" class="contact-button">
-            <i class="fa-brands fa-github"></i>
-            <span>GitHub</span>
+        <a
+          href="https://github.com/VitorSaucedo"
+          target="_blank"
+          class="contact-button"
+          aria-label="Acessar perfil do GitHub de Vitor Saucedo"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <span>GitHub</span>
         </a>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <p>&copy; 2026 - Desenvolvido por Vitor Saucedo</p>
-</footer>
+    <footer>
+      <p>&copy; 2026 - Desenvolvido por Vitor Saucedo</p>
+    </footer>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
