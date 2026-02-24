@@ -22,6 +22,24 @@ const projects = [
     },
   },
   {
+    title: "Finly",
+    description:
+      "Aplicação de controle financeiro pessoal com rastreamento de receitas e despesas, gerenciamento de parcelas, controle de orçamentos e acompanhamento de metas financeiras.",
+    image: "assets/img/finly.png",
+    imageAlt: "Interface do Finly",
+    techs: [
+      "Spring Boot",
+      "Spring Security",
+      "PostgreSQL",
+      "Docker",
+      "Flyway",
+      "JJWT",
+    ],
+    links: {
+      github: "https://github.com/VitorSaucedo/finly",
+    },
+  },
+  {
     title: "Vbank",
     description:
       "Projeto educacional que simula operações bancárias modernas, incluindo PIX, transferências, depósitos e extratos.",
@@ -55,18 +73,6 @@ const projects = [
     links: {
       github: "https://github.com/VitorSaucedo/to_do_list_app",
       demo: "https://to-do-list-app-iek9.onrender.com/",
-    },
-  },
-  {
-    title: "Controle Financeiro",
-    description:
-      "Aplicação de controle financeiro pessoal com registro de receitas e despesas.",
-    image: "assets/img/finances-thumb.png",
-    imageAlt: "Interface do projeto Controle Financeiro",
-    techs: ["Spring Boot", "Spring Security", "PostgreSQL"],
-    links: {
-      github: "https://github.com/VitorSaucedo/finances_app",
-      demo: "https://finances-app-04wa.onrender.com/",
     },
   },
 ];
