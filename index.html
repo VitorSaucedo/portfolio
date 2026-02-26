@@ -3,39 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vitor Saucedo | Dev Java</title>
+    <title>Vitor Saucedo | Desenvolvedor Backend Java</title>
 
     <meta
       name="description"
-      content="Portfólio de Vitor Saucedo, Desenvolvedor Backend Java & Spring Boot focado em sistemas escaláveis."
+      content="Portfólio de Vitor Saucedo, Desenvolvedor Backend Java & Spring Boot focado em sistemas escaláveis e arquitetura de software."
     />
     <meta
       name="keywords"
-      content="Java, Spring Boot, Backend, Desenvolvedor, Portfólio, PostgreSQL"
+      content="Java, Spring Boot, Backend, Desenvolvedor, Portfólio, PostgreSQL, APIs, Microsserviços"
     />
     <meta name="author" content="Vitor Saucedo" />
-
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://vitorsaucedo.github.io/portfolio/"
-    />
-    <meta property="og:title" content="Vitor Saucedo | Dev Java" />
-    <meta
-      property="og:description"
-      content="Desenvolvedor focado em construir sistemas robustos e escaláveis utilizando o ecossistema Java."
-    />
-    <meta
-      property="og:image"
-      content="https://vitorsaucedo.github.io/portfolio/assets/img/preview-site.png"
-    />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="Vitor Saucedo | Dev Java" />
-    <meta
-      property="twitter:description"
-      content="Desenvolvedor focado em construir sistemas robustos e escaláveis utilizando o ecossistema Java."
-    />
 
     <link
       rel="stylesheet"
@@ -43,34 +21,33 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- NAVEGAÇÃO -->
     <nav id="navbar" aria-label="Navegação principal">
-      <div class="container">
+      <div class="container nav-container">
         <div class="logo">Vitor<span>.java</span></div>
-        <ul>
-          <li><a href="#about" aria-label="Ir para a seção Sobre">Sobre</a></li>
+
+        <!-- Botão Mobile -->
+        <button
+          class="mobile-menu-btn"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#education">Educação</a></li>
+          <li><a href="#contact">Contato</a></li>
           <li>
-            <a href="#projects" aria-label="Ir para a seção Projetos"
-              >Projetos</a
-            >
-          </li>
-          <li>
-            <a href="#education" aria-label="Ir para a seção Educação"
-              >Educação</a
-            >
-          </li>
-          <li>
-            <a href="#contact" aria-label="Ir para a seção Contato">Contato</a>
-          </li>
-          <li>
-            <a
-              href="assets/curriculo.pdf"
-              target="_blank"
-              aria-label="Abrir currículo em PDF"
+            <a href="assets/curriculo.pdf" target="_blank" class="nav-resume"
               >Currículo</a
             >
           </li>
@@ -78,6 +55,7 @@
       </div>
     </nav>
 
+    <!-- HERO SECTION -->
     <header id="about" class="container wide-container">
       <div class="hero-content">
         <h1>Desenvolvedor Backend <br /><span>Java & Spring Boot</span></h1>
@@ -87,82 +65,111 @@
         </p>
         <div class="hero-actions">
           <a
-            href="assets/curriculo.pdf"
+            href="assets/Vitor Saucedo Uggeri - Currículo.pdf"
             target="_blank"
-            class="btn-cv"
-            aria-label="Baixar ou visualizar currículo completo em PDF"
+            class="btn-primary"
+            aria-label="Baixar currículo completo em PDF"
           >
-            Ver Currículo PDF
+            <i class="fa-solid fa-file-pdf"></i> Ver Currículo PDF
           </a>
-        </div>
-        <div class="stack-badges" aria-label="Tecnologias principais">
-          <span class="badge">Java</span>
-          <span class="badge">Spring Boot</span>
-          <span class="badge">PostgreSQL</span>
-          <span class="badge">Git</span>
+          <a href="#projects" class="btn-secondary">Ver Projetos</a>
         </div>
       </div>
     </header>
 
-    <section id="projects" class="container wide-container">
+    <!-- HABILIDADES -->
+    <section id="skills" class="container wide-container section-padding">
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <!-- CARD 1 -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-code"></i> Linguagens & Arquitetura</h3>
+          <div class="stack-badges">
+            <span class="badge">Java 21</span>
+            <span class="badge">APIs RESTful</span>
+            <span class="badge">Git & GitHub</span>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-leaf"></i> Ecossistema Spring</h3>
+          <div class="stack-badges">
+            <span class="badge">Spring Boot</span>
+            <span class="badge">Spring Security</span>
+            <span class="badge">Spring Data JPA</span>
+            <span class="badge">Spring Mail</span>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-database"></i> Dados & Infraestrutura</h3>
+          <div class="stack-badges">
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Docker</span>
+            <span class="badge">Flyway</span>
+            <span class="badge">JWT / Autenticação</span>
+            <span class="badge">Swagger</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projects" class="container wide-container section-padding">
       <h2>Projetos em Destaque</h2>
       <div class="projects-grid"></div>
     </section>
 
-    <section id="education" class="container wide-container">
-      <h2>Educação & Certificados</h2>
-
+    <!-- EDUCAÇÃO -->
+    <section id="education" class="container wide-container section-padding">
+      <h2>Educação & Certificações</h2>
       <div class="education-grid">
         <div class="edu-card">
-          <div class="edu-date">2024 - 2026</div>
+          <span class="edu-date">2024 - 2026</span>
           <h3>Análise e Desenvolvimento de Sistemas</h3>
         </div>
-
         <div class="edu-card">
-          <div class="edu-date">2025</div>
+          <span class="edu-date">2025</span>
           <h3>Geração Caldeira</h3>
           <p>Formação Intensiva em Desenvolvimento Java e Soft Skills.</p>
         </div>
-
         <div class="edu-card">
-          <div class="edu-date">2026</div>
+          <span class="edu-date">2026</span>
           <h3>Residência Iniciação Fullstack</h3>
           <p>Instituto de Pesquisas Eldorado</p>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="container wide-container">
+    <!-- CONTATO -->
+    <section id="contact" class="container wide-container section-padding">
       <h2>Vamos conversar?</h2>
       <p class="contact-subtitle">
-        Estou em busca de novos desafios e oportunidades na área de Java.
+        Estou em busca de novos desafios e oportunidades na área de Engenharia
+        de Software / Backend Java.
       </p>
 
       <div class="contact-wrapper">
-        <a
-          href="mailto:vitorsaucedo18@outlook.com"
-          class="contact-button"
-          aria-label="Enviar um e-mail para Vitor Saucedo"
-        >
-          <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+        <a href="mailto:vitorsaucedo18@outlook.com" class="contact-button">
+          <i class="fa-regular fa-envelope"></i>
           <span>E-mail</span>
         </a>
         <a
           href="https://www.linkedin.com/in/vitor-saucedo-uggeri-641868365/"
           target="_blank"
           class="contact-button"
-          aria-label="Acessar perfil do LinkedIn de Vitor Saucedo"
         >
-          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
           <span>LinkedIn</span>
         </a>
         <a
           href="https://github.com/VitorSaucedo"
           target="_blank"
           class="contact-button"
-          aria-label="Acessar perfil do GitHub de Vitor Saucedo"
         >
-          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <i class="fa-brands fa-github"></i>
           <span>GitHub</span>
         </a>
       </div>
