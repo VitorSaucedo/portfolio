@@ -22,6 +22,26 @@ const projects = [
     },
   },
   {
+    title: "Storefront",
+    description:
+      "Plataforma de e-commerce construída com arquitetura de microsserviços, comunicação assíncrona via RabbitMQ, autenticação centralizada com JWT e um frontend React moderno.",
+    image: "assets/img/storefront.png",
+    imageAlt: "Interface da Storefront",
+    techs: [
+      "Spring Boot",
+      "Spring Security",
+      "Spring Cloud Gateway",
+      "RabbitMQ",
+      "React",
+      "PostgreSQL",
+      "Docker",
+    ],
+    links: {
+      github: "https://github.com/VitorSaucedo/storefront",
+      demo: null,
+    },
+  },
+  {
     title: "Finly",
     description:
       "Aplicação de controle financeiro pessoal com rastreamento de receitas e despesas, gerenciamento de parcelas, controle de orçamentos e acompanhamento de metas financeiras.",
