@@ -17,8 +17,8 @@ const personal = {
     "Construo sistemas distribuídos com Spring Boot — de autenticação segura a microsserviços com mensageria assíncrona. Código limpo, arquitetura sólida.",
   available: true, // mostra/oculta o badge "Disponível para oportunidades"
   stats: [
-    { value: "6+", label: "projetos" },
-    { value: "2+", label: "anos de código" },
+    { value: "6", label: "projetos" },
+    { value: "1", label: "ano de código" },
     { value: "5+", label: "tecnologias core" },
   ],
   cv: "https://drive.google.com/file/d/1vBBJmoyQYo2HtrY3PnKE9oTg3xslun7R/view?usp=sharing",

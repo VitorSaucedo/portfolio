@@ -137,7 +137,7 @@ section {
 }
 
 .section-title {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: clamp(2rem, 4vw, 2.8rem);
   font-weight: 800;
   line-height: 1.1;
@@ -205,7 +205,7 @@ section {
 }
 
 .logo {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -289,7 +289,7 @@ section {
 }
 
 .hero-h1 {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: clamp(3rem, 5.5vw, 5rem);
   font-weight: 800;
   line-height: 1;
@@ -409,7 +409,7 @@ section {
   gap: 4px;
 }
 .stat-n {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 2rem;
   font-weight: 800;
   line-height: 1;
@@ -528,7 +528,7 @@ section {
   margin-bottom: 16px;
 }
 .skill-card-title {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 14px;
@@ -672,7 +672,7 @@ section {
   flex: 1;
 }
 .project-card h3 {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -767,7 +767,7 @@ section {
 }
 
 .edu-main h3 {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 5px;
@@ -824,7 +824,7 @@ section {
 }
 
 .contact-box h2 {
-  font-family: "Syne", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
   letter-spacing: -0.04em;
