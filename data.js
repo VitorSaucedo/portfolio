@@ -10,18 +10,18 @@
 // ─────────────────────────────────────────────────────────────
 const personal = {
   name: "Vitor Saucedo",
-  role: "Backend Java Engineer",
-  heroTitle: ["APIs que", "escalam", "de verdade"], // 3 linhas do H1
-  heroHighlights: [1], // índices (0-based) das linhas coloridas com --accent
+  role: "Desenvolvedor Backend",
+  heroTitle: ["Vitor Saucedo,", "Desenvolvedor", "Backend"],
+  heroHighlights: [2],
   heroDescription:
-    "Construo sistemas distribuídos com Spring Boot — de autenticação segura a microsserviços com mensageria assíncrona. Código limpo, arquitetura sólida.",
-  available: true, // mostra/oculta o badge "Disponível para oportunidades"
+    "Gosto de construir o que acontece nos bastidores — APIs, autenticação, mensageria, banco de dados. Tenho experiência com Spring Boot e Java, mas o que me move é resolver problemas de backend bem feitos.",
+  available: true,
   stats: [
     { value: "6", label: "projetos" },
     { value: "1", label: "ano de código" },
     { value: "5+", label: "tecnologias core" },
   ],
-  cv: "https://drive.google.com/file/d/1vBBJmoyQYo2HtrY3PnKE9oTg3xslun7R/view?usp=sharing",
+  cv: "https://drive.google.com/file/d/11IrXi3CgJ9B9JhA4GPMtjEVE0mkE3nB-/view?usp=sharing",
   contact: {
     email: "vitorsaucedo18@outlook.com",
     linkedin: "https://www.linkedin.com/in/vitor-saucedo-uggeri-641868365/",
