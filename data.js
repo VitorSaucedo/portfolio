@@ -21,7 +21,7 @@ const personal = {
     { value: "1", label: "ano de código" },
     { value: "5+", label: "tecnologias core" },
   ],
-  cv: "https://drive.google.com/file/d/11IrXi3CgJ9B9JhA4GPMtjEVE0mkE3nB-/view?usp=sharing",
+  cv: "https://drive.google.com/file/d/12RmfW8WQlU_kcrceNDP978tiuKubT2Sb/view?usp=sharing",
   contact: {
     email: "vitorsaucedo18@outlook.com",
     linkedin: "https://www.linkedin.com/in/vitor-saucedo-uggeri-641868365/",
